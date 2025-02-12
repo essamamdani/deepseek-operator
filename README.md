@@ -21,18 +21,18 @@ cd deepseek-operator
 ```
 
   2.  Set Up Environment Variables:
-  • Duplicate the example environment file:
+  - Duplicate the example environment file:
 ```bash
 cp .env.example .env
 ```
 
-  • Open the .env file and configure the following variables:
-  • `GROQ_API_KEY`: Add your API key here. [Grab an API Key](https://console.groq.com/keys)
-  • For Local Development:
-  • Set `BROWSERBASE_LOCAL=true`
-  • Leave `BROWSERBASE_PROJECT_ID` and `BROWSERBASE_API_KEY` as they are.
-  • For Production:
-  • Obtain the necessary keys from BrowserBase and set them accordingly.
+  - Open the .env file and configure the following variables:
+  - `GROQ_API_KEY`: Add your API key here. [Grab an API Key](https://console.groq.com/keys)
+  - For Local Development:
+  - Set `BROWSERBASE_LOCAL=true`
+  - Leave `BROWSERBASE_PROJECT_ID` and `BROWSERBASE_API_KEY` as they are.
+  - For Production:
+  - Obtain the necessary keys from BrowserBase and set them accordingly.
 
   3.  Install Dependencies:
 Depending on your chosen package manager, run one of the following commands:
